@@ -1,0 +1,216 @@
+/* Global styles ============= */
+html,
+body {
+  width: 100%;
+  height: 100%;
+background: #FFFFFF;
+}
+
+nav {
+  margin-top: 10px;
+  left: 8.85%;
+  right: 10.89%;
+  top: 0.7%;
+  bottom: 97.8%;
+  height: 66px;
+width: 100%;
+left: 170px;
+top: 31px;
+
+}
+.btn-primary {
+  background-color: transparent;
+  color: white;
+}
+
+.travelCali {
+  margin-top: 0px;
+  margin-left: 10px;
+  position:absolute ;
+  font-size: 30px;
+}
+
+.jumbotron {
+  background-image: url(../images/bg-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 25px);
+  width: 100%;
+
+}
+
+ul {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  
+
+}
+
+li{
+  font-family: 'Catamaran';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 30px;
+display: inline;
+width: auto;
+margin: 5px;
+letter-spacing: 0.035em;
+}
+
+.container {
+width: 100%;
+height: 100%;
+}
+
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+a {
+  color: #fdcc52;
+  transition: all .35s;
+}
+
+a:hover, a:focus {
+  color: #fcbd20;
+}
+
+hr {
+  max-width: 100px;
+  margin: 25px auto 0;
+  border-width: 1px;
+  border-color: rgba(34, 34, 34, 0.1);
+}
+
+hr.light {
+  border-color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 100px 0;
+}
+
+section h2 {
+  font-size: 50px;
+}
+
+.device-container {
+position: relative;
+
+
+}
+
+.screen img {
+  height: 50%;
+  width: 50%;
+}
+
+.col-lg-7 h1{
+
+}
+
+.startNow {
+
+}
+
+.downloadText {
+display: block;
+align-content: space-around;
+left: 0px;
+top: auto;
+height: 536px;
+width: 50%;
+border-radius: 100px;
+color: white;
+
+}
+
+.downloadText h1 {
+  font-size: 40px;
+}
+
+.btn {
+  background-color: transparent;
+  border-style: groove;
+  color: white;
+  box-sizing: border-box;
+
+border: 1px solid #FFFFFF;
+border-radius: 100px;
+}
+
+
+.masthead {
+  display: flex;
+  align-items: center;
+  text-align: start;
+}
+
+.download {
+  margin: 10px;
+  background-color: #fcbd20;
+  height: 600px;
+  width: 1920px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.005em;
+  align-content: space-around;
+  
+}
+
+.section-heading{
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.005em;
+}
+
+.download p {
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-family: 'Catamaran';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 113%;
+
+
+}
+
+.cardContainer img{
+  background: #C4C4C4;
+  box-shadow: 0px 14px 9px rgba(0, 0, 0, 0.25);
+  -webkit-border-radius: 30em;
+  -moz-border-radius: 30em;
+  border-radius: 30em;
+  margin: 10px;
+}
+
+.container h2 {
+  text-align: center;
+}
+
