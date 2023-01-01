@@ -61,7 +61,6 @@ letter-spacing: 0.035em;
 
 .container {
 width: 100%;
-height: 100%;
 }
 
 body {
@@ -120,8 +119,7 @@ position: relative;
 }
 
 .screen img {
-  height: 50%;
-  width: 50%;
+max-width: 200px;
 }
 
 .col-lg-7 h1{
@@ -202,6 +200,7 @@ line-height: 113%;
 }
 
 .cardContainer img{
+  max-width: 200px;
   background: #C4C4C4;
   box-shadow: 0px 14px 9px rgba(0, 0, 0, 0.25);
   -webkit-border-radius: 30em;
@@ -214,3 +213,18 @@ line-height: 113%;
   text-align: center;
 }
 
+.customTestimonial {
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.phone {
+  position: relative;
+    max-width: 300px;
+    padding-right: 15px;
+    padding-left: 15px;
+    min-width: 200px;
+}
